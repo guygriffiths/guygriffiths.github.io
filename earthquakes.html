@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Earthquake Map</title>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="quakes.css">
+</head>
+
+<body>
+    <div id="controls">
+        <select id="frequency" onchange="feedChanged()">
+            <option value="hour">Past Hour</option>
+            <option value="day" selected>Past Day</option>
+            <option value="week">Past 7 Days</option>
+            <!--            <option value="month">Past 30 Days</option>-->
+        </select>
+        <br>
+        <select id="strength" onchange="feedChanged()">
+            <option value="significant">Significant</option>
+            <option value="4.5">M4.5+</option>
+            <option value="2.5">M2.5+</option>
+            <option value="1.0">1.0+</option>
+            <option value="all" selected>All</option>
+        </select>
+    </div>
+    <div id="map"></div>
+    <!--
+    <div id="map" class="header-right">
+        some text
+    </div>
+    <div id="controls" class="header">
+    </div>
+-->
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="quakes.js"></script>
+</body>
+
+</html>
