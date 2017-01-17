@@ -81,7 +81,8 @@ d3.json('data/capital_distances.json', (e, data) => {
     d3.select(window).on("resize", resize);
 
     function resize() {
-        width = window.innerWidth, height = window.innerHeight;
+        w = window.innerWidth
+        h = window.innerHeight;
         svg.attr("width", w).attr("height", h);
     }
 })
