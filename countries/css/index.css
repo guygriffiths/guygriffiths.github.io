@@ -1,0 +1,41 @@
+html,
+body {
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.countryNode {
+    fill: cornflowerblue;
+}
+
+.nodes circle {
+    stroke: #000;
+    stroke-width: 0.05%;
+    fill: aquamarine;
+}
+
+.links line {
+    stroke: #999;
+    stroke-opacity: 0.03;
+}
+
+
+/*
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%; 
+    padding-bottom: 100%;
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    height:50%;
+    top: 10px;
+    left: 0;
+}
+*/
