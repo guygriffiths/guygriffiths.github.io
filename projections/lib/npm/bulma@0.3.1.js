@@ -1,1 +1,0 @@
-module.exports = require("npm:bulma@0.3.1/bulma.sass");

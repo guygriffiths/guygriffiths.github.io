@@ -16,8 +16,14 @@ System.config({
       "js/main.js",
       "npm:topojson@2.2.0.js",
       "npm:topojson@2.2.0/dist/topojson.js",
-      "npm:d3@4.4.1.js",
-      "npm:d3@4.4.1/build/d3.js",
+      "npm:d3-scale-chromatic@1.1.0.js",
+      "npm:d3-scale-chromatic@1.1.0/build/d3-scale-chromatic.js",
+      "npm:d3-interpolate@1.1.3.js",
+      "npm:d3-interpolate@1.1.3/build/d3-interpolate.js",
+      "npm:d3-color@1.0.2.js",
+      "npm:d3-color@1.0.2/build/d3-color.js",
+      "npm:d3@4.4.2.js",
+      "npm:d3@4.4.2/build/d3.js",
       "github:jspm/nodelibs-process@0.1.2.js",
       "github:jspm/nodelibs-process@0.1.2/index.js",
       "npm:process@0.11.9.js",
@@ -32,7 +38,7 @@ System.config({
       "npm:ieee754@1.1.8/index.js",
       "npm:base64-js@0.0.8.js",
       "npm:base64-js@0.0.8/lib/b64.js",
-      "npm:bulma@0.3.1/css/bulma.css!github:systemjs/plugin-css@0.1.32.js"
+      "npm:skeleton-css@2.0.4/css/skeleton.css!github:systemjs/plugin-css@0.1.32.js"
     ]
   },
 
@@ -42,9 +48,11 @@ System.config({
     "bulma": "npm:bulma@0.3.1",
     "core-js": "npm:core-js@1.2.7",
     "css": "github:systemjs/plugin-css@0.1.32",
-    "d3": "npm:d3@4.4.1",
+    "d3": "npm:d3@4.4.2",
     "d3-geo-projection": "npm:d3-geo-projection@1.2.1",
-    "systemjs/plugin-css": "github:systemjs/plugin-css@0.1.32",
+    "d3-scale-chromatic": "npm:d3-scale-chromatic@1.1.0",
+    "skeleton": "npm:skeleton-css@2.0.4",
+    "skeleton-css": "npm:skeleton-css@2.0.4",
     "topojson": "npm:topojson@2.2.0",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
@@ -124,7 +132,7 @@ System.config({
     "npm:d3-brush@1.0.3": {
       "d3-dispatch": "npm:d3-dispatch@1.0.2",
       "d3-drag": "npm:d3-drag@1.0.2",
-      "d3-interpolate": "npm:d3-interpolate@1.1.2",
+      "d3-interpolate": "npm:d3-interpolate@1.1.3",
       "d3-selection": "npm:d3-selection@1.0.3",
       "d3-transition": "npm:d3-transition@1.0.3"
     },
@@ -161,7 +169,7 @@ System.config({
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "d3-array": "npm:d3-array@1.0.2"
     },
-    "npm:d3-interpolate@1.1.2": {
+    "npm:d3-interpolate@1.1.3": {
       "d3-color": "npm:d3-color@1.0.2"
     },
     "npm:d3-request@1.0.3": {
@@ -170,12 +178,15 @@ System.config({
       "d3-dsv": "npm:d3-dsv@1.0.3",
       "xmlhttprequest": "npm:xmlhttprequest@1.8.0"
     },
+    "npm:d3-scale-chromatic@1.1.0": {
+      "d3-interpolate": "npm:d3-interpolate@1.1.3"
+    },
     "npm:d3-scale@1.0.4": {
       "d3-array": "npm:d3-array@1.0.2",
       "d3-collection": "npm:d3-collection@1.0.2",
       "d3-color": "npm:d3-color@1.0.2",
       "d3-format": "npm:d3-format@1.0.2",
-      "d3-interpolate": "npm:d3-interpolate@1.1.2",
+      "d3-interpolate": "npm:d3-interpolate@1.1.3",
       "d3-time": "npm:d3-time@1.0.4",
       "d3-time-format": "npm:d3-time-format@2.0.3"
     },
@@ -189,18 +200,18 @@ System.config({
       "d3-color": "npm:d3-color@1.0.2",
       "d3-dispatch": "npm:d3-dispatch@1.0.2",
       "d3-ease": "npm:d3-ease@1.0.2",
-      "d3-interpolate": "npm:d3-interpolate@1.1.2",
+      "d3-interpolate": "npm:d3-interpolate@1.1.3",
       "d3-selection": "npm:d3-selection@1.0.3",
       "d3-timer": "npm:d3-timer@1.0.3"
     },
     "npm:d3-zoom@1.1.1": {
       "d3-dispatch": "npm:d3-dispatch@1.0.2",
       "d3-drag": "npm:d3-drag@1.0.2",
-      "d3-interpolate": "npm:d3-interpolate@1.1.2",
+      "d3-interpolate": "npm:d3-interpolate@1.1.3",
       "d3-selection": "npm:d3-selection@1.0.3",
       "d3-transition": "npm:d3-transition@1.0.3"
     },
-    "npm:d3@4.4.1": {
+    "npm:d3@4.4.2": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "d3-array": "npm:d3-array@1.0.2",
       "d3-axis": "npm:d3-axis@1.0.4",
@@ -216,7 +227,7 @@ System.config({
       "d3-format": "npm:d3-format@1.0.2",
       "d3-geo": "npm:d3-geo@1.4.0",
       "d3-hierarchy": "npm:d3-hierarchy@1.0.3",
-      "d3-interpolate": "npm:d3-interpolate@1.1.2",
+      "d3-interpolate": "npm:d3-interpolate@1.1.3",
       "d3-path": "npm:d3-path@1.0.3",
       "d3-polygon": "npm:d3-polygon@1.0.2",
       "d3-quadtree": "npm:d3-quadtree@1.0.2",

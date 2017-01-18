@@ -1,1 +1,0 @@
-module.exports = require("npm:topojson-simplify@2.0.0/dist/topojson-simplify.js");

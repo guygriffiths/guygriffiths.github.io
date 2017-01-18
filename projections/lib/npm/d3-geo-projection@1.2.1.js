@@ -1,1 +1,0 @@
-module.exports = require("npm:d3-geo-projection@1.2.1/build/d3-geo-projection.js");
