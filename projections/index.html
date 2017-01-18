@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="author" content="Guy Griffiths">
+    <meta name="description" content="">
+
+    <!-- We include this here, rather than through SystemJS since it all applies to the HTML-defined layout -->
+    <link rel="stylesheet" href="css/index.css">
+    <title>Title</title>
+</head>
+
+<body>
+    <span class="select projection-dropdown">
+        <select id="projection-select">
+            <optgroup label="Azimuthal">
+                <option value="geoAzimuthalEqualArea">Equal Area</option>
+                <option value="geoAzimuthalEquidistant">Equidistant</option>
+                <option value="geoGnomonic">Gnomonic</option>
+                <option value="geoOrthographic">Orthographic</option>
+                <option value="geoStereographic">Stereographic</option>
+            </optgroup>
+            <optgroup label="Conic">
+                <option value="geoConicConformal">Conic Conformal</option>
+                <option value="geoConicEqualArea">Conic Equal Area</option>
+                <option value="geoConicEquidistant">Conic Equidistant</option>
+            </optgroup>
+            <optgroup label="Cylindrical">
+                <option value="geoEquirectangular">Equirectangular</option>
+                <option value="geoMercator">Mercator</option>
+                <option value="geoTransverseMercator">Transverse Mercator</option>
+            </optgroup>
+        </select>
+    </span>
+    <svg id="map"></svg>
+    <script src="./lib/system.js"></script>
+    <script src="./config.js"></script>
+    <script>
+        System.import('./js/main.js');
+    </script>
+</body>
+
+</html>

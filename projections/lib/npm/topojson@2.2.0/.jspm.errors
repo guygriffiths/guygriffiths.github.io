@@ -1,0 +1,22 @@
+MultipleErrors: /home/guy/.jspm/packages/npm/topojson@2.2.0/rollup.config.js:1:1: Unexpected reserved word import
+/home/guy/.jspm/packages/npm/topojson@2.2.0/rollup.config.js:1:8: Semi-colon expected
+/home/guy/.jspm/packages/npm/topojson@2.2.0/rollup.config.js:1:14: Semi-colon expected
+/home/guy/.jspm/packages/npm/topojson@2.2.0/rollup.config.js:1:19: Semi-colon expected
+/home/guy/.jspm/packages/npm/topojson@2.2.0/rollup.config.js:2:1: Unexpected reserved word import
+/home/guy/.jspm/packages/npm/topojson@2.2.0/rollup.config.js:2:8: Semi-colon expected
+/home/guy/.jspm/packages/npm/topojson@2.2.0/rollup.config.js:2:13: Semi-colon expected
+/home/guy/.jspm/packages/npm/topojson@2.2.0/rollup.config.js:2:18: Semi-colon expected
+/home/guy/.jspm/packages/npm/topojson@2.2.0/rollup.config.js:4:1: Unexpected reserved word export
+/home/guy/.jspm/packages/npm/topojson@2.2.0/rollup.config.js:4:8: Semi-colon expected
+/home/guy/.jspm/packages/npm/topojson@2.2.0/rollup.config.js:4:8: Unexpected reserved word default
+/home/guy/.jspm/packages/npm/topojson@2.2.0/rollup.config.js:4:16: Semi-colon expected
+
+MultipleErrors: /home/guy/.jspm/packages/npm/topojson@2.2.0/index.js:1:1: Unexpected reserved word export
+/home/guy/.jspm/packages/npm/topojson@2.2.0/index.js:1:8: Semi-colon expected
+/home/guy/.jspm/packages/npm/topojson@2.2.0/index.js:3:8: Semi-colon expected
+/home/guy/.jspm/packages/npm/topojson@2.2.0/index.js:5:1: Unexpected reserved word export
+/home/guy/.jspm/packages/npm/topojson@2.2.0/index.js:5:8: Semi-colon expected
+/home/guy/.jspm/packages/npm/topojson@2.2.0/index.js:16:8: Semi-colon expected
+/home/guy/.jspm/packages/npm/topojson@2.2.0/index.js:18:1: Unexpected reserved word export
+/home/guy/.jspm/packages/npm/topojson@2.2.0/index.js:18:8: Semi-colon expected
+/home/guy/.jspm/packages/npm/topojson@2.2.0/index.js:29:8: Semi-colon expected
